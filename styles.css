@@ -1,0 +1,136 @@
+*{
+   box-sizing: border-box;
+  color: #ffffff;
+  font-family: "dm-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 0 auto;
+}
+
+.wrapper-2 {
+  flex-direction: row;
+  justify-content: left;
+  width: 82%;
+  margin: 0 auto;
+}
+
+section {
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 25px;
+}
+section .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 10px;
+}
+section .wrapper input {
+  background-color: #484848;
+  color: #ffffff;
+  outline: 1px solid #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+  transition: 0.15s;
+}
+section .wrapper input:focus {
+  outline: 2px solid #00ff88;
+}
+section .wrapper button {
+  margin: 3px;
+  border-radius: 8px;
+  background-color: #00d4ff;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.15s;
+}
+section .wrapper button:hover {
+  opacity: 0.9;
+}
+
+
+p {
+  font-size: 26px;
+}
+p span {
+  color: #00d4ff;
+  font-size: 30xp;
+}
+
+th {
+  border: 1px solid #00d4ff;
+  padding: 0.5rem;
+}
+td{
+  padding: 0.5rem;
+}
+
+select {
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+select:focus {
+  outline: none;
+  border: 2px solid #00ff88;
+  background-color: #2d2d2d;
+}
+select option {
+  background-color: #2d2d2d;
+}
+select option:focus {
+  background-color: #2d2d2d;
+}
+
+footer {
+  padding: 3%;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  width: 60%;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+footer .wrapper h2 {
+  justify-content: left;
+}
+footer .wrapper h2 strong {
+  color: #00d4ff;
+}
+footer p {
+  font-size: 1.25rem;
+  line-height: 2.3rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 14px;
+  }
+  footer {
+    width: 70%;
+  }
+  footer p {
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
