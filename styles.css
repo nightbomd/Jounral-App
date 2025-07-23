@@ -126,6 +126,7 @@ footer p {
   table { font-size: 14px; }
   footer { width: 90%; }
   footer p { font-size: 1rem; line-height: 2.5rem; text-align: center;}
+  main {width: 100%;}
 }
 
 @media screen and (max-width: 600px) {
