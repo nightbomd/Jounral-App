@@ -123,14 +123,24 @@ footer p {
 }
 
 @media screen and (max-width: 800px) {
+  table { font-size: 14px; }
+  footer { width: 90%; }
+  footer p { font-size: 1rem; line-height: 2.5rem; text-align: center;}
+}
+
+@media screen and (max-width: 600px) {
+  footer .wrapper h2 { margin: 1rem auto; }
   table {
-    font-size: 14px;
+   border-collapse: collapse;
+   background-color: #2d2d2d;
+   width: 100%;
+   padding: 1rem;
   }
-  footer {
-    width: 70%;
-  }
-  footer p {
-    font-size: 1rem;
-    line-height: 2.5rem;
-  }
-}/*# sourceMappingURL=styles.css.map */
+  td {
+  border: 1px solid #484848; /* Add borders to match th */
+  padding: 0.5rem;
+}
+  table th { font-size: 0.9rem; }
+  td { padding: 0.25rem; line-height: 2; }
+  .wrapper, p { width: 100% !important; }
+}
